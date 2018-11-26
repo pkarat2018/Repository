@@ -1,9 +1,13 @@
 # TEST DATA
 Run the application and enter the below commands in the command prompt
-o	PLACE 0,0,NORTH
-o	MOVE
-o	REPORT
+PLACE 0,0,NORTH
+
+MOVE
+
+REPORT
+
 	Output: 0,1,NORTH
+
 o	PLACE 0,0,NORTH
 o	LEFT
 o	REPORT
