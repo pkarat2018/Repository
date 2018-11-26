@@ -1,4 +1,22 @@
-# Repository
+# TEST DATA
+Run the application and enter the below commands in the command prompt
+o	PLACE 0,0,NORTH
+o	MOVE
+o	REPORT
+	Output: 0,1,NORTH
+o	PLACE 0,0,NORTH
+o	LEFT
+o	REPORT
+	Output: 0,0,WEST
+o	PLACE 1,2,EAST
+o	MOVE
+o	MOVE
+o	LEFT
+o	MOVE
+o	REPORT
+	Output: 3,3,NORTH
+
+
 Toy Robot Simulator
 
 Description
@@ -26,19 +44,3 @@ o	REPORT
 Constraints:
 -	The toy robot must not fall off the table during movement. This also includes the initial placement of the toy robot
 -	Any move that would cause the robot to fall must be ignored
--	Example Input and Output:
-o	PLACE 0,0,NORTH
-o	MOVE
-o	REPORT
-	Output: 0,1,NORTH
-o	PLACE 0,0,NORTH
-o	LEFT
-o	REPORT
-	Output: 0,0,WEST
-o	PLACE 1,2,EAST
-o	MOVE
-o	MOVE
-o	LEFT
-o	MOVE
-o	REPORT
-	Output: 3,3,NORTH
